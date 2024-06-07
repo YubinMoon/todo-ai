@@ -1,0 +1,26 @@
+name: jarvis
+description: >
+  A cross-platform scheduling app built with Flutter that allows users to manage their schedules and tasks. 
+  Key features include leveraging a Large Language Model (LLM) to create, summarize, and share schedules. 
+  Users can share schedules with each other, and the LLM can reference other users' schedules to provide 
+  comprehensive responses. Additionally, the LLM organizes and provides reminders for users' schedules.
+
+publish_to: "none"
+
+version: "0.0.1"
+
+environment:
+  sdk: ">=3.4.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
