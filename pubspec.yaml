@@ -15,6 +15,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  table_calendar: ^3.1.1
+  intl: any
 
 dev_dependencies:
   flutter_test:
